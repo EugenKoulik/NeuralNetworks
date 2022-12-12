@@ -1,0 +1,11 @@
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNView\bin\Debug\HopfieldNNView.exe.config
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNView\bin\Debug\HopfieldNNView.exe
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNView\bin\Debug\HopfieldNNView.pdb
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNView\obj\Debug\HopfieldNNView.csproj.AssemblyReference.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNView\obj\Debug\HopfieldNNView.csproj.SuggestedBindingRedirects.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNView\obj\Debug\HopfieldNNView.csproj.GenerateResource.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNView\obj\Debug\HopfieldNNView.csproj.CoreCompileInputs.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNView\obj\Debug\HopfieldNNView.exe
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNView\obj\Debug\HopfieldNNView.pdb
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNView\obj\Debug\HopfieldNNView.Form1.resources
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNView\obj\Debug\HopfieldNNView.Properties.Resources.resources

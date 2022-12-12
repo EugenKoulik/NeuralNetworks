@@ -1,0 +1,16 @@
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\bin\Debug\netcoreapp3.1\HopfieldNNController.deps.json
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\bin\Debug\netcoreapp3.1\HopfieldNNController.dll
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\bin\Debug\netcoreapp3.1\HopfieldNNController.pdb
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\bin\Debug\netcoreapp3.1\HopfieldNNService.dll
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\bin\Debug\netcoreapp3.1\HopfieldNNView.exe
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\bin\Debug\netcoreapp3.1\HopfieldNNService.pdb
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\bin\Debug\netcoreapp3.1\HopfieldNNView.pdb
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\bin\Debug\netcoreapp3.1\HopfieldNNView.exe.config
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\obj\Debug\netcoreapp3.1\HopfieldNNController.csproj.AssemblyReference.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\obj\Debug\netcoreapp3.1\HopfieldNNController.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\obj\Debug\netcoreapp3.1\HopfieldNNController.AssemblyInfoInputs.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\obj\Debug\netcoreapp3.1\HopfieldNNController.AssemblyInfo.cs
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\obj\Debug\netcoreapp3.1\HopfieldNNController.csproj.CoreCompileInputs.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\obj\Debug\netcoreapp3.1\HopfieldNNController.csproj.CopyComplete
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\obj\Debug\netcoreapp3.1\HopfieldNNController.dll
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNController\obj\Debug\netcoreapp3.1\HopfieldNNController.pdb

@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "HopfieldNNController/1.0.0": {
+        "dependencies": {
+          "HopfieldNNService": "1.0.0",
+          "HopfieldNNView": "1.0.0"
+        },
+        "runtime": {
+          "HopfieldNNController.dll": {}
+        }
+      },
+      "HopfieldNNService/1.0.0": {
+        "runtime": {
+          "HopfieldNNService.dll": {}
+        }
+      },
+      "HopfieldNNView/1.0.0": {
+        "runtime": {
+          "HopfieldNNView.exe": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HopfieldNNController/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HopfieldNNService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HopfieldNNView/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

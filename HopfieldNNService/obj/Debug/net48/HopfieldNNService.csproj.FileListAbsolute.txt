@@ -1,0 +1,5 @@
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net48\HopfieldNNService.csproj.AssemblyReference.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net48\HopfieldNNService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net48\HopfieldNNService.AssemblyInfoInputs.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net48\HopfieldNNService.AssemblyInfo.cs
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net48\HopfieldNNService.csproj.CoreCompileInputs.cache

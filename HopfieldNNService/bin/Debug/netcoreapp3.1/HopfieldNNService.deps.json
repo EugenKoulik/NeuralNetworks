@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HopfieldNNService/1.0.0": {
+        "runtime": {
+          "HopfieldNNService.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HopfieldNNService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

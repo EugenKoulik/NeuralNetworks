@@ -1,0 +1,10 @@
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\bin\Debug\netcoreapp3.1\HopfieldNNService.deps.json
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\bin\Debug\netcoreapp3.1\HopfieldNNService.dll
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\bin\Debug\netcoreapp3.1\HopfieldNNService.pdb
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\netcoreapp3.1\HopfieldNNService.csproj.AssemblyReference.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\netcoreapp3.1\HopfieldNNService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\netcoreapp3.1\HopfieldNNService.AssemblyInfoInputs.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\netcoreapp3.1\HopfieldNNService.AssemblyInfo.cs
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\netcoreapp3.1\HopfieldNNService.csproj.CoreCompileInputs.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\netcoreapp3.1\HopfieldNNService.dll
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\netcoreapp3.1\HopfieldNNService.pdb

@@ -1,0 +1,12 @@
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net5.0-windows\HopfieldNNService.csproj.AssemblyReference.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net5.0-windows\HopfieldNNService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net5.0-windows\HopfieldNNService.AssemblyInfoInputs.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net5.0-windows\HopfieldNNService.AssemblyInfo.cs
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net5.0-windows\HopfieldNNService.csproj.CoreCompileInputs.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\bin\Debug\net5.0-windows\HopfieldNNService.deps.json
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\bin\Debug\net5.0-windows\HopfieldNNService.dll
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\bin\Debug\net5.0-windows\HopfieldNNService.pdb
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net5.0-windows\HopfieldNNService.dll
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net5.0-windows\refint\HopfieldNNService.dll
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net5.0-windows\HopfieldNNService.pdb
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNNService\obj\Debug\net5.0-windows\ref\HopfieldNNService.dll

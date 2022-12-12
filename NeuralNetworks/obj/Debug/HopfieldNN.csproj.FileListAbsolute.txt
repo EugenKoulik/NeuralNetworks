@@ -1,0 +1,10 @@
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNN\bin\Debug\HopfieldNN.exe.config
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNN\bin\Debug\HopfieldNN.exe
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNN\bin\Debug\HopfieldNN.pdb
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNN\obj\Debug\HopfieldNN.csproj.AssemblyReference.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNN\obj\Debug\HopfieldNN.Properties.Resources.resources
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNN\obj\Debug\HopfieldNN.csproj.GenerateResource.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNN\obj\Debug\HopfieldNN.csproj.CoreCompileInputs.cache
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNN\obj\Debug\HopfieldNN.exe
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNN\obj\Debug\HopfieldNN.pdb
+C:\Users\Evgeniy\RiderProjects\HopfieldNN\HopfieldNN\obj\Debug\HopfieldNN.Form1.resources
