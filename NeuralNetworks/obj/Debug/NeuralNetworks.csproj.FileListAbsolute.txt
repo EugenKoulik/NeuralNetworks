@@ -35,3 +35,4 @@ C:\Users\Максим\Desktop\ML\AllSolutions\NeuralNetworks\NeuralNetworks\obj\
 C:\Users\Максим\Desktop\ML\AllSolutions\NeuralNetworks\NeuralNetworks\bin\Debug\MathParser.org-mXparser.dll
 C:\Users\Максим\Desktop\ML\AllSolutions\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.csproj.CopyComplete
 C:\Users\Максим\Desktop\ML\AllSolutions\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.GeneticAlgorithm.UI.GeneticForm.resources
+C:\Users\Максим\Desktop\ML\AllSolutions\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.AntAlgorithm.UI.AntAlgorithmForm.resources

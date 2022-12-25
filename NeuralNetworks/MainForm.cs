@@ -1,4 +1,5 @@
-﻿using NeuralNetworks.GeneticAlgorithm.UI;
+﻿using NeuralNetworks.AntAlgorithm.UI;
+using NeuralNetworks.GeneticAlgorithm.UI;
 using System;
 using System.Windows.Forms;
 
@@ -29,6 +30,13 @@ namespace NeuralNetworks
         {
             var geneticForm = new GeneticForm(this);
             geneticForm.Show();
+            Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var antForm = new AntAlgorithmForm(this);
+            antForm.Show();
             Hide();
         }
     }
