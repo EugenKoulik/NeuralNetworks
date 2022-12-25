@@ -36,3 +36,4 @@ C:\Users\Максим\Desktop\ML\AllSolutions\NeuralNetworks\NeuralNetworks\bin\
 C:\Users\Максим\Desktop\ML\AllSolutions\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.csproj.CopyComplete
 C:\Users\Максим\Desktop\ML\AllSolutions\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.GeneticAlgorithm.UI.GeneticForm.resources
 C:\Users\Максим\Desktop\ML\AllSolutions\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.AntAlgorithm.UI.AntAlgorithmForm.resources
+C:\Users\Максим\Desktop\ML\AllSolutions\NeuralNetworks\NeuralNetworks\obj\Debug\NeuralNetworks.BeeAlgorithm.UI.BeeForm.resources

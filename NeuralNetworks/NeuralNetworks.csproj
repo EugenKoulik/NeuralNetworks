@@ -60,6 +60,13 @@
       <DependentUpon>AntAlgorithmForm.cs</DependentUpon>
     </Compile>
     <Compile Include="AntAlgorithm\UI\GraphUiManager.cs" />
+    <Compile Include="BeeAlgorithm\Algorithm\BeeAlgorithmLogic.cs" />
+    <Compile Include="BeeAlgorithm\UI\BeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BeeAlgorithm\UI\BeeForm.Designer.cs">
+      <DependentUpon>BeeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Common\DrawStaff\Draw.cs" />
     <Compile Include="Common\Utils\Converter.cs" />
     <Compile Include="Common\Utils\Matrix.cs" />
@@ -83,7 +90,7 @@
     <Compile Include="GeneticAlgorithm\Extensions\DoubleExtensions.cs" />
     <Compile Include="GeneticAlgorithm\MainAlgorithm\Chromosome.cs" />
     <Compile Include="GeneticAlgorithm\MainAlgorithm\GeneticAlgorythm.cs" />
-    <Compile Include="GeneticAlgorithm\MathParsing\MathParser.cs" />
+    <Compile Include="MathParsing\MathParser.cs" />
     <Compile Include="GeneticAlgorithm\Mutation\Binary\BinaryMutation.cs" />
     <Compile Include="GeneticAlgorithm\Mutation\Real\RandomMutation.cs" />
     <Compile Include="GeneticAlgorithm\Selection\BreedingSelection.cs" />
@@ -121,6 +128,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AntAlgorithm\UI\AntAlgorithmForm.resx">
       <DependentUpon>AntAlgorithmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeeAlgorithm\UI\BeeForm.resx">
+      <DependentUpon>BeeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GeneticAlgorithm\UI\GeneticForm.resx">
       <DependentUpon>GeneticForm.cs</DependentUpon>
