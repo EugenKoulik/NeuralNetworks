@@ -52,14 +52,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AntAlgorithm\Algorithm\Ant.cs" />
-    <Compile Include="AntAlgorithm\Algorithm\AntAlgorythm.cs" />
+    <Compile Include="AntAlgorithm\Algorithm\AntAlgorithmLogic.cs" />
     <Compile Include="AntAlgorithm\UI\AntAlgorithmForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AntAlgorithm\UI\AntAlgorithmForm.Designer.cs">
       <DependentUpon>AntAlgorithmForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AntAlgorithm\UI\GraphPainter.cs" />
+    <Compile Include="AntAlgorithm\UI\GraphUiManager.cs" />
     <Compile Include="Common\DrawStaff\Draw.cs" />
     <Compile Include="Common\Utils\Converter.cs" />
     <Compile Include="Common\Utils\Matrix.cs" />
