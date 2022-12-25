@@ -1,6 +1,7 @@
 ﻿using NeuralNetworks.AntAlgorithm.UI;
 using NeuralNetworks.BeeAlgorithm.UI;
 using NeuralNetworks.GeneticAlgorithm.UI;
+using NeuralNetworks.SimulatedAnnealing.UI;
 using System;
 using System.Windows.Forms;
 
@@ -45,6 +46,13 @@ namespace NeuralNetworks
         {
             var beeForm = new BeeForm(this);
             beeForm.Show();
+            Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var annealingAlgorithmForm = new AnnealingAlgorithmForm(this);
+            annealingAlgorithmForm.Show();
             Hide();
         }
     }
