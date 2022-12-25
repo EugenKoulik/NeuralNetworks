@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace NeuralNetworks.AntAlgorithm.Algorithm
 {
-    public class AntAlgorythm
+    public class AntAlgorithmLogic
     {
         public double Alpha { get; set; }
         public double Beta { get; set; }
 
         private List<Ant> _ants;
-        public AntAlgorythm(int alpha = 1, int beta = 1)
+        public AntAlgorithmLogic(int alpha = 1, int beta = 1)
         {
             Alpha = alpha;
 
@@ -51,10 +51,6 @@ namespace NeuralNetworks.AntAlgorithm.Algorithm
 
             for (int i = 0; i < path.Count; i++)
             {
-                /*_graphics.DrawLine(
-                        new Pen(new SolidBrush(color), width),
-                        _vertexPoints[vertexes[i] - 1],
-                        _vertexPoints[(vertexes[(i + 1) % vertexes.Count] - 1)]);*/
 
                 result += matrix[path[i], path[(i + 1) % path.Count]].Weight;
             }

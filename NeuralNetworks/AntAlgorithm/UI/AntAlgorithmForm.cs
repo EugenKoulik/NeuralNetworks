@@ -15,7 +15,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
     {
         private Graphics _graphics;
         private Bitmap _graphBitmap;
-        private GraphPainter _graphPainter;
+        private GraphUiManager _graphPainter;
         private (double Weight, double Pheromone)[,] _matrix;
         private List<int> _shortestPath;
 
@@ -31,7 +31,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
 
             _graphics = Graphics.FromImage(_graphBitmap);
 
-            _graphPainter = new GraphPainter(_graphics, _graphBitmap);
+            _graphPainter = new GraphUiManager(_graphics, _graphBitmap);
 
             _matrix = new (double Weight, double Pheromone)[(int)countVertex.Value, (int)countVertex.Value];
 
@@ -172,7 +172,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
         }
         private async void startButton_Click(object sender, EventArgs e)
         {
-            AntAlgorythm algorythm = new AntAlgorythm(
+            Algorithm.AntAlgorithmLogic algorythm = new Algorithm.AntAlgorithmLogic(
                 (int)alphaNumeric.Value,
                 (int)betaNumeric.Value);
 

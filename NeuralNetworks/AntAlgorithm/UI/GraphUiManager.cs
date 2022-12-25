@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NeuralNetworks.AntAlgorithm.UI
 {
-    public class GraphPainter
+    public class GraphUiManager
     {
         private Graphics _graphics;
 
@@ -15,7 +15,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
 
         private List<PointF> _vertexPoints;
 
-        public GraphPainter(Graphics graphics, Bitmap bitmap)
+        public GraphUiManager(Graphics graphics, Bitmap bitmap)
         {
             _graphics = graphics;
 
