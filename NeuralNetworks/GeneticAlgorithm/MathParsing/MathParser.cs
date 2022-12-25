@@ -23,14 +23,14 @@ namespace NeuralNetworks.GeneticAlgorithm.MathParsing
         {
             if (parametres.Length != _func.getArgumentsNumber())
             {
-                throw new ArgumentException("the number of parameters does not match");
+                throw new ArgumentException("Number of parameters does not match");
             }
 
             double result = _func.calculate(parametres);
 
             if (Double.IsNaN(result))
             {
-                throw new ArgumentException("Incorrect function");
+                throw new ArgumentException("Invalid function");
             }
 
             return result;
