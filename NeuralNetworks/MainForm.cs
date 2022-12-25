@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NeuralNetworks.GeneticAlgorithm.UI;
+using System;
 using System.Windows.Forms;
 
 namespace NeuralNetworks
@@ -21,6 +22,13 @@ namespace NeuralNetworks
         {
             var hammingForm = new Hamming(this);
             hammingForm.Show();
+            Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var geneticForm = new GeneticForm(this);
+            geneticForm.Show();
             Hide();
         }
     }
