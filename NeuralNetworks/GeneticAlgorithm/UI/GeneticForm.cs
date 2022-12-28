@@ -25,24 +25,11 @@ namespace NeuralNetworks.GeneticAlgorithm.UI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            functionsListBox.SelectedIndex = 0;
-
-            customFunctionTextBox.Text = functionsListBox.SelectedItem.ToString();
-
+            functionsComboBox.SelectedIndex = 0;
             flatCrossing.Checked = true;
-
             realRandomMutation.Checked = true;
-
             simpleSelection.Checked = true;
-
-            countPointsLabel.Visible = binaryPointCrossing.Checked;
-
             countPointsNumeric.Visible = binaryPointCrossing.Checked;
-        }
-
-        private void functionsListBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            customFunctionTextBox.Text = functionsListBox.SelectedItem.ToString();
         }
 
         #region selection
@@ -101,8 +88,6 @@ namespace NeuralNetworks.GeneticAlgorithm.UI
         }
         private void binaryPointCrossing_CheckedChanged(object sender, EventArgs e)
         {
-            countPointsLabel.Visible = binaryPointCrossing.Checked;
-
             countPointsNumeric.Visible = binaryPointCrossing.Checked;
 
             if (binaryPointCrossing.Checked)
@@ -165,9 +150,9 @@ namespace NeuralNetworks.GeneticAlgorithm.UI
 
         private async void calculateButton_Click(object sender, EventArgs e)
         {
-            string expression = customFunctionTextBox.Text;
+            var expression = functionsComboBox.Text;
 
-            Presenter presenter = new Presenter
+            var presenter = new Presenter
                 (
                     _currentSelectionType,
                     _currentCrossingType,
@@ -190,9 +175,9 @@ namespace NeuralNetworks.GeneticAlgorithm.UI
 
                 var argumentsNames = presenter.GetNamesArguments();
 
-                StringBuilder stringBuilder = new StringBuilder();
+                var stringBuilder = new StringBuilder();
 
-                for (int i = 0; i < argumentsNames.Length; i++)
+                for (var i = 0; i < argumentsNames.Length; i++)
                 {
                     stringBuilder.Append($"{argumentsNames[i]} = {optimalArguments[i]}\n");
                 }

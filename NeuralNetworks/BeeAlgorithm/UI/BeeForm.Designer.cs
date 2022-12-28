@@ -281,7 +281,7 @@ namespace NeuralNetworks.BeeAlgorithm.UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(843, 257);
+            this.ClientSize = new System.Drawing.Size(841, 249);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.countScoutBeesNumeric);
