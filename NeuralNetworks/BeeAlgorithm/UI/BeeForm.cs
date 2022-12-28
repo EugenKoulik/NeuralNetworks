@@ -43,17 +43,14 @@ namespace NeuralNetworks.BeeAlgorithm.UI
         private void Form1_Load(object sender, EventArgs e)
         {
             upperBoundNumeric.Minimum = lowerBoundNumeric.Value;
-
             lowerBoundNumeric.Maximum = upperBoundNumeric.Value;
-
-            customFunctionTextBox.Text = functionsListBox.Items[0].ToString();
+            functionsComboBox.Text = functionsComboBox.Items[0].ToString();
         }
 
         private async void calculateButton_Click(object sender, EventArgs e)
         {
             calculateButton.Enabled = false;
-
-            string expression = customFunctionTextBox.Text;
+            var expression = functionsComboBox.Text;
 
             BeeAlgorithmLogic algorithm = new();
 
@@ -71,12 +68,10 @@ namespace NeuralNetworks.BeeAlgorithm.UI
                     (int)upperBoundNumeric.Value));
 
             var optimumFunc = algorithm.GetResult(optimalArguments);
-
             var argumentsNames = algorithm.GetNamesArguments();
+            var stringBuilder = new StringBuilder();
 
-            StringBuilder stringBuilder = new StringBuilder();
-
-            for (int i = 0; i < argumentsNames.Length; i++)
+            for (var i = 0; i < argumentsNames.Length; i++)
             {
                 stringBuilder.Append($"{argumentsNames[i]} = {optimalArguments[i]}\n");
             }
@@ -86,11 +81,6 @@ namespace NeuralNetworks.BeeAlgorithm.UI
             MessageBox.Show(stringBuilder.ToString());
 
             calculateButton.Enabled = true;
-        }
-
-        private void functionsListBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            customFunctionTextBox.Text = functionsListBox.SelectedItem.ToString();
         }
 
         private void BeeForm_FormClosed(object sender, FormClosedEventArgs e)
