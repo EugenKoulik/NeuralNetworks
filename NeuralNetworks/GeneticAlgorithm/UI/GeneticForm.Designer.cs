@@ -303,7 +303,7 @@ namespace NeuralNetworks.GeneticAlgorithm.UI
             // 
             // numberSurvivedNumeric
             // 
-            this.numberSurvivedNumeric.Location = new System.Drawing.Point(716, 237);
+            this.numberSurvivedNumeric.Location = new System.Drawing.Point(721, 237);
             this.numberSurvivedNumeric.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.numberSurvivedNumeric.Minimum = new decimal(new int[] { 2, 0, 0, 0 });
             this.numberSurvivedNumeric.Name = "numberSurvivedNumeric";

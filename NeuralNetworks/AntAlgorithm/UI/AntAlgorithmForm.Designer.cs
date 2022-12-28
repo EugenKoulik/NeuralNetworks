@@ -70,7 +70,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             // countIterationsNumeric
             // 
-            this.countIterationsNumeric.Location = new System.Drawing.Point(257, 506);
+            this.countIterationsNumeric.Location = new System.Drawing.Point(296, 518);
             this.countIterationsNumeric.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.countIterationsNumeric.Maximum = new decimal(new int[] { 10000, 0, 0, 0 });
             this.countIterationsNumeric.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
@@ -82,7 +82,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             // countAntsNumeric
             // 
-            this.countAntsNumeric.Location = new System.Drawing.Point(257, 474);
+            this.countAntsNumeric.Location = new System.Drawing.Point(296, 475);
             this.countAntsNumeric.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.countAntsNumeric.Maximum = new decimal(new int[] { 10000, 0, 0, 0 });
             this.countAntsNumeric.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
@@ -95,7 +95,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(383, 609);
+            this.startButton.Location = new System.Drawing.Point(383, 521);
             this.startButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(735, 34);
@@ -108,7 +108,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             this.alphaNumeric.DecimalPlaces = 1;
             this.alphaNumeric.Increment = new decimal(new int[] { 1, 0, 0, 65536 });
-            this.alphaNumeric.Location = new System.Drawing.Point(257, 540);
+            this.alphaNumeric.Location = new System.Drawing.Point(296, 567);
             this.alphaNumeric.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.alphaNumeric.Minimum = new decimal(new int[] { 100, 0, 0, -2147483648 });
             this.alphaNumeric.Name = "alphaNumeric";
@@ -121,7 +121,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             this.betaNumeric.DecimalPlaces = 1;
             this.betaNumeric.Increment = new decimal(new int[] { 1, 0, 0, 65536 });
-            this.betaNumeric.Location = new System.Drawing.Point(257, 569);
+            this.betaNumeric.Location = new System.Drawing.Point(296, 616);
             this.betaNumeric.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.betaNumeric.Minimum = new decimal(new int[] { 100, 0, 0, -2147483648 });
             this.betaNumeric.Name = "betaNumeric";
@@ -133,7 +133,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 571);
+            this.label4.Location = new System.Drawing.Point(12, 618);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(137, 17);
             this.label4.TabIndex = 8;
@@ -141,7 +141,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             // countVertex
             // 
-            this.countVertex.Location = new System.Drawing.Point(165, 382);
+            this.countVertex.Location = new System.Drawing.Point(296, 380);
             this.countVertex.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.countVertex.Minimum = new decimal(new int[] { 2, 0, 0, 0 });
             this.countVertex.Name = "countVertex";
@@ -181,7 +181,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // isSimmetricCheckBox
             // 
             this.isSimmetricCheckBox.AutoSize = true;
-            this.isSimmetricCheckBox.Location = new System.Drawing.Point(165, 350);
+            this.isSimmetricCheckBox.Location = new System.Drawing.Point(296, 350);
             this.isSimmetricCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.isSimmetricCheckBox.Name = "isSimmetricCheckBox";
             this.isSimmetricCheckBox.Size = new System.Drawing.Size(18, 17);
@@ -191,12 +191,12 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             // maxRandomNumeric
             // 
-            this.maxRandomNumeric.Location = new System.Drawing.Point(165, 313);
+            this.maxRandomNumeric.Location = new System.Drawing.Point(296, 313);
             this.maxRandomNumeric.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.maxRandomNumeric.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
             this.maxRandomNumeric.Minimum = new decimal(new int[] { 2, 0, 0, 0 });
             this.maxRandomNumeric.Name = "maxRandomNumeric";
-            this.maxRandomNumeric.Size = new System.Drawing.Size(51, 22);
+            this.maxRandomNumeric.Size = new System.Drawing.Size(68, 22);
             this.maxRandomNumeric.TabIndex = 18;
             this.maxRandomNumeric.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.maxRandomNumeric.Value = new decimal(new int[] { 10, 0, 0, 0 });
@@ -205,7 +205,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             this.evaporationRatioNumeric.DecimalPlaces = 1;
             this.evaporationRatioNumeric.Increment = new decimal(new int[] { 1, 0, 0, 65536 });
-            this.evaporationRatioNumeric.Location = new System.Drawing.Point(257, 598);
+            this.evaporationRatioNumeric.Location = new System.Drawing.Point(296, 665);
             this.evaporationRatioNumeric.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.evaporationRatioNumeric.Maximum = new decimal(new int[] { 1, 0, 0, 0 });
             this.evaporationRatioNumeric.Name = "evaporationRatioNumeric";
@@ -217,7 +217,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(12, 600);
+            this.label9.Location = new System.Drawing.Point(15, 667);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(177, 17);
             this.label9.TabIndex = 23;
@@ -225,7 +225,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             // qRatioNumeric
             // 
-            this.qRatioNumeric.Location = new System.Drawing.Point(257, 626);
+            this.qRatioNumeric.Location = new System.Drawing.Point(296, 711);
             this.qRatioNumeric.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.qRatioNumeric.Maximum = new decimal(new int[] { 50, 0, 0, 0 });
             this.qRatioNumeric.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
@@ -238,7 +238,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(12, 626);
+            this.label10.Location = new System.Drawing.Point(15, 713);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(117, 17);
             this.label10.TabIndex = 25;
@@ -263,7 +263,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // shortestPathLabel
             // 
             this.shortestPathLabel.AutoSize = true;
-            this.shortestPathLabel.Location = new System.Drawing.Point(591, 474);
+            this.shortestPathLabel.Location = new System.Drawing.Point(581, 454);
             this.shortestPathLabel.Name = "shortestPathLabel";
             this.shortestPathLabel.Size = new System.Drawing.Size(54, 17);
             this.shortestPathLabel.TabIndex = 28;
@@ -272,7 +272,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // sumWeightLabel
             // 
             this.sumWeightLabel.AutoSize = true;
-            this.sumWeightLabel.Location = new System.Drawing.Point(591, 540);
+            this.sumWeightLabel.Location = new System.Drawing.Point(581, 487);
             this.sumWeightLabel.Name = "sumWeightLabel";
             this.sumWeightLabel.Size = new System.Drawing.Size(54, 17);
             this.sumWeightLabel.TabIndex = 31;
@@ -312,7 +312,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(12, 509);
+            this.label1.Location = new System.Drawing.Point(12, 521);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(239, 19);
             this.label1.TabIndex = 36;
@@ -320,7 +320,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(12, 540);
+            this.label2.Location = new System.Drawing.Point(12, 569);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(239, 19);
             this.label2.TabIndex = 37;
@@ -328,25 +328,25 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(383, 474);
+            this.label3.Location = new System.Drawing.Point(383, 454);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(192, 19);
             this.label3.TabIndex = 38;
-            this.label3.Text = "Shortest Hamiltonian cycle   - ";
+            this.label3.Text = "Кратчайший Гамильтонов цикл";
             // 
             // label11
             // 
-            this.label11.Location = new System.Drawing.Point(383, 540);
+            this.label11.Location = new System.Drawing.Point(383, 487);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(202, 19);
             this.label11.TabIndex = 39;
-            this.label11.Text = "Total cycle weight                 -";
+            this.label11.Text = "Суммарный вес цикла";
             // 
             // AntAlgorithmForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1141, 678);
+            this.ClientSize = new System.Drawing.Size(1143, 756);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);

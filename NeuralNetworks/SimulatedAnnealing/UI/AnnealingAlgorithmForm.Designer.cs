@@ -260,7 +260,7 @@ namespace NeuralNetworks.SimulatedAnnealing.UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(860, 368);
+            this.ClientSize = new System.Drawing.Size(858, 360);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.sumWeightLabel);
             this.Controls.Add(this.label12);
