@@ -306,7 +306,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             this.label8.Location = new System.Drawing.Point(12, 477);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(153, 19);
+            this.label8.Size = new System.Drawing.Size(239, 19);
             this.label8.TabIndex = 35;
             this.label8.Text = "Количество итераций";
             // 
@@ -314,7 +314,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             this.label1.Location = new System.Drawing.Point(12, 509);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(153, 19);
+            this.label1.Size = new System.Drawing.Size(239, 19);
             this.label1.TabIndex = 36;
             this.label1.Text = "Количество муравьёв";
             // 
@@ -322,7 +322,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             this.label2.Location = new System.Drawing.Point(12, 540);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 19);
+            this.label2.Size = new System.Drawing.Size(239, 19);
             this.label2.TabIndex = 37;
             this.label2.Text = "Коэффициент альфа";
             // 
@@ -346,7 +346,7 @@ namespace NeuralNetworks.AntAlgorithm.UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1135, 654);
+            this.ClientSize = new System.Drawing.Size(1141, 678);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);

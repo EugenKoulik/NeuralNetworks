@@ -13,13 +13,7 @@ namespace NeuralNetworks.SimulatedAnnealing.UI
 {
     public partial class AnnealingAlgorithmForm : Form
     {
-        private Bitmap _graphBitmap;
-
-        private Graphics _graphics;
-
         private double[,] _matrix;
-
-        private GraphUiManager _graphPainter;
 
         private readonly Form _parentForm;
         public AnnealingAlgorithmForm(Form parentForm)
@@ -27,25 +21,12 @@ namespace NeuralNetworks.SimulatedAnnealing.UI
             InitializeComponent();
 
             _parentForm = parentForm;
-            _graphBitmap = new Bitmap(graphPictureBox.Width, graphPictureBox.Height);
-
-            _graphics = Graphics.FromImage(_graphBitmap);
-
-            _graphPainter = new GraphUiManager(_graphics, _graphBitmap);
-
             _matrix = new double[(int)countVertex.Value, (int)countVertex.Value];
-
-            _graphPainter.DrawCompleteGraph((int)countVertex.Value);
-
-            graphPictureBox.Image = _graphBitmap;
 
             InitializeMatrix();
 
             shortestPathLabel.Text = "";
-
             sumWeightLabel.Text = "";
-
-            endedResultButton.Checked = true;
         }
 
         private void InitializeMatrix()
@@ -54,16 +35,16 @@ namespace NeuralNetworks.SimulatedAnnealing.UI
 
             matrixGridView.ColumnCount = (int)countVertex.Value;
 
-            for (int i = 0; i < (int)countVertex.Value; i++)
+            for (var i = 0; i < (int)countVertex.Value; i++)
             {
                 matrixGridView.Rows[i].HeaderCell.Value = (i + 1).ToString();
 
                 matrixGridView.Columns[i].HeaderCell.Value = (i + 1).ToString();
             }
 
-            for (int i = 0; i < _matrix.GetLength(0); i++)
+            for (var i = 0; i < _matrix.GetLength(0); i++)
             {
-                for (int j = 0; j < _matrix.GetLength(0); j++)
+                for (var j = 0; j < _matrix.GetLength(0); j++)
                 {
                     matrixGridView.Rows[i].Cells[j].Value = _matrix[i, j];
 
@@ -86,9 +67,9 @@ namespace NeuralNetworks.SimulatedAnnealing.UI
 
         private void isSimmetricCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            for (int i = 0; i < _matrix.GetLength(0); i++)
+            for (var i = 0; i < _matrix.GetLength(0); i++)
             {
-                for (int j = i + 1; j < _matrix.GetLength(0); j++)
+                for (var j = i + 1; j < _matrix.GetLength(0); j++)
                 {
                     _matrix[j, i] = _matrix[i, j];
                 }
@@ -99,13 +80,13 @@ namespace NeuralNetworks.SimulatedAnnealing.UI
 
         private void randomWeightsButton_Click(object sender, EventArgs e)
         {
-            Random random = new Random();
+            var random = new Random();
 
-            int maxRandom = (int)maxRandomNumeric.Value;
+            var maxRandom = (int)maxRandomNumeric.Value;
 
-            for (int i = 0; i < countVertex.Value; i++)
+            for (var i = 0; i < countVertex.Value; i++)
             {
-                for (int j = 0; j < countVertex.Value; j++)
+                for (var j = 0; j < countVertex.Value; j++)
                 {
                     if (i != j)
                     {
@@ -131,18 +112,13 @@ namespace NeuralNetworks.SimulatedAnnealing.UI
         {
             _matrix = new double[(int)countVertex.Value, (int)countVertex.Value];
 
-            _graphPainter.DrawCompleteGraph((int)countVertex.Value);
-
-            graphPictureBox.Image = _graphBitmap;
-
             InitializeMatrix();
         }
 
         private void matrixGridView_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
-            int row = e.RowIndex;
-
-            int column = e.ColumnIndex;
+            var row = e.RowIndex;
+            var column = e.ColumnIndex;
 
             if (row < 0 || column < 0)
             {
@@ -151,9 +127,7 @@ namespace NeuralNetworks.SimulatedAnnealing.UI
 
             var oldValue = _matrix[row, column];
 
-            int newValue = 0;
-
-            if (int.TryParse(matrixGridView.Rows[row].Cells[column].Value.ToString(), out newValue)
+            if (int.TryParse(matrixGridView.Rows[row].Cells[column].Value.ToString(), out var newValue)
                 && newValue > 0)
             {
                 _matrix[row, column] = newValue;
@@ -171,7 +145,7 @@ namespace NeuralNetworks.SimulatedAnnealing.UI
 
         private async void startButton_Click(object sender, EventArgs e)
         {
-            AnnealingAlgorithmLogic annealing = new AnnealingAlgorithmLogic();
+            var annealing = new AnnealingAlgorithmLogic();
 
             startButton.Enabled = false;
 
@@ -180,34 +154,9 @@ namespace NeuralNetworks.SimulatedAnnealing.UI
                 (double)maxTemperatureNumeric.Value,
                 (double)minTemperatureNumeric.Value,
                 (double)cRatioNumeric.Value));
-
-            if (iterationResultButton.Checked)
-            {
-                await Task.Run(async () =>
-                {
-                    for (int i = 0; i < result.Count; i++)
-                    {
-                        await Task.Delay((int)animationNumeric.Value);
-
-                        _graphPainter.DrawCompleteGraph((int)countVertex.Value);
-
-                        _graphPainter.DrawCycle(result[i].Path);
-
-                        graphPictureBox.Image = _graphBitmap;
-                    }
-                });
-            }
-
-            _graphPainter.DrawCompleteGraph((int)countVertex.Value);
-
-            _graphPainter.DrawCycle(result.Last().Path);
-
-            graphPictureBox.Image = _graphBitmap;
-
+            
             startButton.Enabled = true;
-
-            shortestPathLabel.Text = String.Join("->", result.Last().Path.Select(v => v + 1).ToList());
-
+            shortestPathLabel.Text = string.Join("->", result.Last().Path.Select(v => v + 1).ToList());
             sumWeightLabel.Text = ((int)annealing.EnergyFunc(_matrix, result.Last().Path)).ToString();
         }
 
@@ -215,6 +164,5 @@ namespace NeuralNetworks.SimulatedAnnealing.UI
         {
             _parentForm.Show();
         }
-
     }
 }

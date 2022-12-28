@@ -133,7 +133,6 @@
     <Compile Include="SimulatedAnnealing\UI\AnnealingAlgorithmForm.Designer.cs">
       <DependentUpon>AnnealingAlgorithmForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SimulatedAnnealing\UI\GraphUiManager.cs" />
     <EmbeddedResource Include="AntAlgorithm\UI\AntAlgorithmForm.resx">
       <DependentUpon>AntAlgorithmForm.cs</DependentUpon>
     </EmbeddedResource>
